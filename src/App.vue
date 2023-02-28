@@ -5,15 +5,25 @@ Per oggi diamo priorità alla struttura: quando è tutto bello solido, passiamo 
 
 <script>
 import AppHeader from './components/AppHeader.vue'
+import AppContent from './components/AppContent.vue';
+import AppOption from './components/AppOption.vue';
+import AppFooter from './components/AppFooter.vue';
+
 export default {
   components: {
     AppHeader,
+    AppContent,
+    AppOption,
+    AppFooter,
   }
 }
 </script>
 
 <template>
   <AppHeader />
+  <AppContent />
+  <AppOption />
+  <AppFooter />
 </template>
 
 <style lang="scss">
